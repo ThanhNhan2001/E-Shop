@@ -1,0 +1,33 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(22 19 19 / 60%);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  left: 0%;
+  z-index: 99999;
+}
+
+.titleCloseBtn img {
+  margin-top: 5%;
+  margin-right: 27%
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  position: fixed;
+  background-color: transparent;
+  color:aliceblue;
+  border: none;
+  font-size: 48px;
+  cursor: pointer;
+  margin-top: 0%;
+  margin-right: 2%;
+}
